@@ -1,0 +1,12 @@
+CompileFlags:
+  Add:
+    - "-I/home/ducklegs/Documents/QMK/quantum"
+    - "-I/home/ducklegs/Documents/QMK/drivers"
+    - "-I/home/ducklegs/Documents/QMK/platforms"
+    - "-I/home/ducklegs/Documents/QMK/tmk_core"
+    -
+    - "-DHAL_USE_PWM=TRUE"
+    - "-D__ARM_ARCH_6M__"
+    - "-DPROTOCOL_CHIBIOS"
+    - "-mthumb"
+    - "-mcpu=cortex-m0plus"

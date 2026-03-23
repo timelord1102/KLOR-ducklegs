@@ -22,13 +22,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define LAYOUT LAYOUT_polydactyl
 
+#define DYNAMIC_KEYMAP_LAYER_COUNT 6
+
+#define SPLIT_LAYER_STATE_ENABLE
+
 /* The way how "handedness" is decided (which half is which),
 see https://docs.qmk.fm/#/feature_split_keyboard?id=setting-handedness
 for more options.
 */
 
-#define EE_HANDS
-//#define MASTER_LEFT
+// #define EE_HANDS
+#define MASTER_LEFT
 // #define MASTER_RIGHT
 
 //#define TAPPING_TERM 170
@@ -50,7 +54,7 @@ for more options.
 
 //#define COMBO_COUNT 3
 #define VIAL_COMBO_ENTRIES 25
-// RGB matrix support
+////// RGB matrix support
 #ifdef RGB_MATRIX_ENABLE
 // RGB Matrix Animation modes. Explicitly enabled
 // For full list of effects, see:
